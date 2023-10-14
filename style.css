@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Crimson+Text:ital@1&family=Dosis&family=Merienda:wght@400;600&family=Roboto:wght@300&family=Silkscreen&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.style ul li a:hover {
+
+   
+   color: rgb(17, 63, 215);
+}
+
+
+.hero-header{
+    background: linear-gradient(rgba(20,20,31,0.7),rgba(20,20,31,0.7)),url(https://img.freepik.com/premium-photo/couple-traveler_45381-236.jpg?w=900);
+    background-position: center;
+    background-size: 1190px 600px;
+    
+
+}
+.service{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: 0.5s;
+
+}
+.service:hover{
+    background-color:rgb(154, 156, 158);
+}
+
+.service *{
+    transition: 0.5s;
+
+}
+.service:hover *{
+    color: white;
+   }
+   
+
+ 
+.cardstyle{
+    width:250px;
+    height:300px;
+    margin-left: 15px;
+    background-size: 280px 350px;
+    border: 5px solid white;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
+ }
+ .topdestcardstyle{
+    
+    border: 5px solid white;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .name{
+    margin-top: 225px;
+    padding-left: 7px;
+ }
+ .name i{
+    color: rgb(236, 236, 10);
+ }
+ .cardstyle h5{
+    color:white;
+    font-weight: bold;
+ }
+ .cardstyle p{
+    color: white;
+ }
+ .package{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+.package img{
+    transition: 0.5s;
+}
+ .package:hover img{
+    transform: scale(1.1);
+ }
+ .email{
+    background: linear-gradient(rgba(20,20,31,0.7),rgba(20,20,31,0.7)),url(https://w0.peakpx.com/wallpaper/199/694/HD-wallpaper-sunset-in-mall-of-asia-manila-philipines-water-blue-sunset-gold.jpg);
+    background-size: 1200px 200px;
+ }
+ .input input i{
+   margin-left: -300px;
+   color: blue;
+  }
+  .footer .btn.btn-social{ 
+   margin-right: 5px; 
+   width: 35px;
+   height: 30px; 
+   align-items: center;
+   justify-content: center;
+   color:white;
+   display: flex;
+   border: 1px solid #ffffff;
+   border-radius: 35px;
+   transition: 0.3s;
+   
+   }
+   
+   .footer .btn.btn-social:hover{
+      color:blue;
+      transform: scale(1.3);
+      transition: .3s;
+
+   }
+   .footer .btn.btn-link{
+      text-align: left;
+   }
